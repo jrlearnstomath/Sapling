@@ -1,8 +1,8 @@
 **HMM_example.jl** is code from [How to train your Hidden Markov Model example from RxInfer.jl](https://reactivebayes.github.io/RxInfer.jl/stable/examples/basic_examples/Hidden%20Markov%20Model/) adjusted to use variables consistent with Parr et. al. The same can be done to use variables of choice: files where you can find instances of each variable that needs swapping are indicated in parentheses:
 
-State-observation matrix: 'A' instead of 'B' (modspec.jl)
-Transition matrix: 'B' instead of 'A' (modspec.jl)
-observations: 'o' instead of 'x' and 'o_data' instead of 'x_data' (setup_gendata_gh.jl, perfinf.jl)
+- State-observation matrix: 'A' instead of 'B' (modspec.jl)
+- Transition matrix: 'B' instead of 'A' (modspec.jl)
+- Observations: 'o' instead of 'x' and 'o_data' instead of 'x_data' (setup_gendata_gh.jl, perfinf.jl)
 
 Notes:
 - showmats.jl stays as is, but the results will be swapped compared to the RxInfer docs
