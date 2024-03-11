@@ -1,2 +1,2 @@
 # Sapling
-This is a repo for RxInfer.jl learning things at the AII. Testing 123.
+This is a repo for act inf RxInfer.jl learning things.
