@@ -1,0 +1,5 @@
+include("setup_gendata.jl")
+include("modspec.jl")
+include("perfinf.jl")
+include("showmats.jl")
+include("checkstuff.jl")
