@@ -1,7 +1,13 @@
 # Sapling
 This is a repo for act inf RxInfer.jl learning things.
 
-HMM_example.jl includes:
+**HMM_example.jl** is code from [How to train your Hidden Markov Model example from RxInfer.jl]([url](https://reactivebayes.github.io/RxInfer.jl/stable/examples/basic_examples/Hidden%20Markov%20Model/)) adjusted to use variables consistent with Parr et. al.:
+
+State-observation matrix: 'A' instead of 'B'
+Transition matrix: 'B' instead of 'A'
+observations: 'o' instead of 'x'
+
+It runs:
 
 1. setup_gendata_gh.jl # to initialize the thing and generate the state and observation data
 2. modspec.jl # to specify the model
